@@ -5,7 +5,7 @@ import { XCircle, CheckCircle2 } from 'lucide-react';
 const MythsRealitySection = () => {
   const { texts } = useLanguage();
 
-  const imageUrl = "https://images.pexels.com/photos/179221/pexels-photo-179221.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2";
+  const imageUrl = "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEir01DmsF_EB2zSt4_Vu9CQbH2R3NZsDFpCmSXiZ14uRTZJkmmJpk5868Fji75bO-G1wROqaLNLtcLmb-6dGBNco--dCxc6ykJFYI6O-XIp3HhKmZg1rWyoY5IrdCkj3u5oqHDDTv_llp9dKJraehGZI5bblpFmpQ2QxoFogfKJEJ-G79ZRO4vw5Ok3vg/s16000-rw/cat-3040345-1280.jpg";
 
   const sectionVariants = {
     hidden: { opacity: 0 },
