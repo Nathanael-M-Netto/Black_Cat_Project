@@ -13,10 +13,6 @@ const ThemeSwitcher = () => {
       // Aria-label para acessibilidade
       aria-label={`Mudar para tema ${theme === 'light' ? 'escuro' : 'claro'}`}
     >
-      {/* LÓGICA INVERTIDA: 
-        - Tema 'light' (claro) mostra o Sol.
-        - Tema 'dark' (escuro) mostra a Lua.
-      */}
       {theme === 'light' ? <Sun size={20} /> : <Moon size={20} />}
     </button>
   );

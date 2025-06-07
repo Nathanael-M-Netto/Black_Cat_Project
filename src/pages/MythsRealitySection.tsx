@@ -26,7 +26,6 @@ const MythsRealitySection = () => {
   return (
     <motion.section
       id="myths"
-      // ALTERAÇÃO AQUI: Trocado 'bg-light-card' por 'bg-light-background'
       className="py-16 sm:py-24 bg-light-background dark:bg-dark-background"
       initial="hidden"
       whileInView="visible"

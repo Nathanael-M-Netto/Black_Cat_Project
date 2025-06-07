@@ -24,7 +24,6 @@ export type TranslationKeys = {
   reality2Text: string;
   galleryTitle: string;
   gallerySubtitle: string;
-  // Novos textos para a secção "Help" e "Footer"
   helpTitle: string;
   helpSubtitle: string;
   helpCard1Title: string;
@@ -65,7 +64,6 @@ export const translations: { [key: string]: TranslationKeys } = {
     reality2Text: "Black cats can be from various breeds, each with unique traits. Many are known for being particularly cuddly and playful.",
     galleryTitle: "A Gallery of Shadows",
     gallerySubtitle: "Admire the unique beauty and personality of these magnificent felines.",
-    // Textos em Inglês
     helpTitle: "How You Can Help",
     helpSubtitle: "Every action, big or small, makes a difference in the lives of these wonderful cats.",
     helpCard1Title: "Adopt a Friend",
@@ -103,7 +101,6 @@ export const translations: { [key: string]: TranslationKeys } = {
     reality2Text: "Gatos pretos podem ser de várias raças, cada uma com traços únicos. Muitos são conhecidos por serem particularmente carinhosos e brincalhões.",
     galleryTitle: "Uma Galeria de Sombras",
     gallerySubtitle: "Admire a beleza e personalidade únicas destes magníficos felinos.",
-    // Textos em Português
     helpTitle: "Como Pode Ajudar",
     helpSubtitle: "Cada ação, grande ou pequena, faz a diferença na vida destes gatos maravilhosos.",
     helpCard1Title: "Adote um Amigo",

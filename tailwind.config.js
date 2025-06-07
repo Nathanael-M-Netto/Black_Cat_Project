@@ -18,7 +18,6 @@ export default {
         header: '#121212',
         
         light: {
-          // ALTERAÇÃO AQUI: Cor de fundo alterada para um branco mais suave.
           background: '#f1f5f9', // slate-100
           card: '#ffffff',       // Cards continuam brancos para manter o contraste.
           text: '#0f172a',
@@ -31,7 +30,6 @@ export default {
           subtle: '#94a3b8',
         },
 
-        // ALTERAÇÃO AQUI: Cor do arco atualizada para o novo fundo claro.
         arc_light: '#f1f5f9',
         arc_dark: '#27272a',
 

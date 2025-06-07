@@ -18,8 +18,6 @@ function App() {
         <GallerySection />
         <HelpSection />
       </main>
-
-      {/* ALTERAÇÃO: A chamada do TopArc foi simplificada. */}
       <TopArc />
 
       <Footer />

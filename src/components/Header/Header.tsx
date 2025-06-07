@@ -103,7 +103,6 @@ const Header = () => {
         {isMenuOpen && (
           <motion.div
             key="mobile-menu"
-            // ALTERAÇÃO 1: Fundo do menu agora usa a cor de fundo da página.
             className="fixed inset-0 z-50 bg-light-background/95 dark:bg-dark-card/95 backdrop-blur-sm"
             variants={mobileMenuVariants}
             initial="hidden"
@@ -122,7 +121,6 @@ const Header = () => {
                   <a
                     key={item.label}
                     href={item.href}
-                    // ALTERAÇÃO 2: Links agora mostram a cor de destaque quando ativos.
                     className={`text-3xl font-bold transition-colors ${
                       isActive 
                         ? 'text-accent-light dark:text-accent-dark' 

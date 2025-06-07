@@ -13,7 +13,7 @@ const TopArc: FC = () => {
         <path
           // Usando o novo formato de curva para uma aparência côncava.
           d="M0,0 C480,70 960,70 1440,0 L1440,150 L0,150 Z"
-          // ALTERAÇÃO: A cor agora é fixada para 'footer-arc-light', que
+          // A cor agora é fixada para 'footer-arc-light', que
           // corresponde à cor do rodapé estático (#121212).
           className="fill-footer-arc-light"
         />

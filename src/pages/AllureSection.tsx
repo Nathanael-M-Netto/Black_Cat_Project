@@ -7,7 +7,6 @@ import { type ReactNode } from 'react';
 const FeatureCard = ({ icon, title, text }: { icon: ReactNode; title: string; text: string }) => {
   return (
     <div className="flex flex-col items-center text-center p-6 bg-light-card dark:bg-dark-card rounded-2xl shadow-lg transition-transform hover:-translate-y-2">
-      {/* ALTERAÇÃO AQUI: Cores do ícone atualizadas para a paleta 'accent' */}
       <div className="flex items-center justify-center h-16 w-16 mb-4 rounded-full bg-accent-light/10 dark:bg-accent-dark/10 text-accent-light dark:text-accent-dark">
         {icon}
       </div>

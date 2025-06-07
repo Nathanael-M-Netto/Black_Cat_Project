@@ -10,9 +10,7 @@ const LanguageSwitcher = () => {
   return (
     <button
       onClick={handleToggleLanguage}
-      // ALTERAÇÃO: As classes de cor agora são dinâmicas.
-      // No tema claro, o botão terá um fundo cinza claro e texto escuro para garantir o contraste.
-      // No tema escuro, ele mantém o estilo anterior que funciona bem em fundos escuros.
+      // As classes de cor agora são dinâmicas.
       className="w-10 h-10 rounded-full flex items-center justify-center text-sm font-bold transition-colors duration-300 
                  bg-slate-200/80 text-slate-800 hover:bg-slate-300
                  dark:bg-white/10 dark:text-dark-text dark:hover:bg-white/20"

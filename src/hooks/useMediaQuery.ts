@@ -1,9 +1,6 @@
 import { useSyncExternalStore } from 'react';
 
 /**
- * Hook customizado para detetar se uma media query CSS corresponde.
- * Esta versão utiliza o hook `useSyncExternalStore` do React 18 para uma subscrição
- * segura e síncrona, eliminando o "flash" na renderização inicial.
  * @param query - A string da media query (ex: '(max-width: 768px)').
  * @returns {boolean} - True se a query corresponder, false caso contrário.
  */

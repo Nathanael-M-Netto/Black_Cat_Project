@@ -7,8 +7,7 @@ const Footer = () => {
 
   return (
     <footer
-      // ALTERAÇÃO: Removidas as classes 'dark:*' para tornar o estilo estático.
-      // O rodapé agora é sempre escuro, usando as cores definidas para 'dark-card'.
+
       className="bg-dark-card text-dark-text py-8 transition-colors duration-300"
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
