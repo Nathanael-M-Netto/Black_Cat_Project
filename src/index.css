@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-light-background text-light-text transition-colors duration-300;
+}
+
+.dark body {
+  @apply bg-dark-background text-dark-text;
+}
+
+/* --- Estilos para o Embla Carousel --- */
+.embla {
+  overflow: hidden;
+  position: relative;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  position: relative;
+  flex: 0 0 100%;
+  min-width: 0;
+  padding-left: 1rem;
+}
+
+@screen md {
+  .embla__slide {
+    flex: 0 0 50%;
+  }
+}
+
+@screen lg {
+  .embla__slide {
+    flex: 0 0 33.3333%;
+  }
+}
+
+.embla__button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  border: none;
+  background-color: rgba(24, 24, 27, 0.6);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 9999px;
+  cursor: pointer;
+}
+
+.embla__button:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+.embla__button--prev {
+  left: 1.5rem;
+}
+
+.embla__button--next {
+  right: 1.5rem;
+}

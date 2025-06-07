@@ -1,0 +1,31 @@
+# Ficheiros de log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependências
+# Esta pasta contém todos os pacotes instalados e pode ser recriada com 'npm install'
+node_modules
+
+# Ficheiros de build
+# Esta pasta é gerada quando se executa 'npm run build' e contém a versão final do site
+dist
+dist-ssr
+
+# Ficheiros de ambiente
+# Nunca adicione ficheiros com chaves de API ou segredos ao repositório
+.env
+.env.local
+.env.*.local
+
+# Cache do Vite
+# Diretório de cache interno do Vite para otimizar o desenvolvimento
+.vite/
+
+# Relatórios de cobertura de testes
+coverage
+
+# Ficheiros temporários de sistema
+.DS_Store
+Thumbs.db
