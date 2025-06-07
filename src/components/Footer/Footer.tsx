@@ -30,10 +30,10 @@ const Footer = () => {
           </p>
 
           <div className="flex items-center space-x-6 order-1 sm:order-2">
-            <a href="https://github.com/seu_usuario_github" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="text-dark-subtle hover:text-accent-dark transition-colors">
+            <a href="https://github.com/Nathanael-M-Netto" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="text-dark-subtle hover:text-accent-dark transition-colors">
               <Github size={22} />
             </a>
-            <a href="https://linkedin.com/in/seu_usuario_linkedin" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-dark-subtle hover:text-accent-dark transition-colors">
+            <a href="https://www.linkedin.com/in/nathanael-m-netto/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-dark-subtle hover:text-accent-dark transition-colors">
               <Linkedin size={22} />
             </a>
           </div>
