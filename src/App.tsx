@@ -19,7 +19,6 @@ function App() {
         <HelpSection />
       </main>
       <TopArc />
-
       <Footer />
     </div>
   );
